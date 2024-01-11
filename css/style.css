@@ -43,3 +43,49 @@ li a{
     color: #303134;
     display: none;
 }
+
+/* section 1 */
+
+.s-1{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    height: 570px;
+    background-image: url(../images/green.png), url(../images/bg.png);
+    background-size: cover;
+    background-position: bottom center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+
+}
+
+.text-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.text-wrapper h2{
+    font-family: "BPG Arial", sans-serif;
+    font-size: 78.74051666259766px;
+    font-weight: normal;
+    line-height: 52.95845413208008px;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 36px;
+}
+
+.text-wrapper h5{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 37px;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
+}
