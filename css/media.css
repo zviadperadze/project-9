@@ -1,0 +1,50 @@
+@media (max-width:1200px){
+    .container{
+        width: 90%;
+    }
+    .card-wrapper{
+        justify-content: space-around;
+    }
+}
+
+@media(max-width:860px){
+    .wrap-wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-wrapper{
+        margin-right: 0;
+        margin-bottom: 50px;
+        width: 90%;
+    }
+
+    .info-wrapper h2,
+    .info-wrapper h3,
+    .info-wrapper p {
+        text-align:center;
+    }
+}
+
+@media(max-width:800px){
+    nav{
+        display: none;
+    }
+
+    .fa-bars{
+        display: block;
+    }
+
+}
+
+@media(max-width:635px){
+    .card {
+        width: 70%;
+    }
+}
+
+@media (max-width: 590px) {
+    .text-wrapper h2 {
+        font-size: 50px;
+    }
+}
