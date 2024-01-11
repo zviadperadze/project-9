@@ -1,0 +1,45 @@
+/* header */
+header{
+    height: 80px;
+}
+
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.myheader{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    width: 500px;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15.742380142211914px;
+    font-weight: normal;
+    line-height: 36.99894714355469px;
+    font-style: normal;
+    text-align: center;
+    color: #303134;
+}
+
+
+.fa-bars{
+    font-size: 30px;
+    color: #303134;
+    display: none;
+}
