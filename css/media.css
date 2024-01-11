@@ -24,6 +24,13 @@
     .info-wrapper p {
         text-align:center;
     }
+    .fa-facebook,
+    .fa-square-instagram,
+    .fa-facebook-messenger{
+        font-size: 30px;
+    }
+
+
 }
 
 @media(max-width:800px){
@@ -34,6 +41,12 @@
     .fa-bars{
         display: block;
     }
+
+    .myfooter{
+        align-items: center;
+    }
+    
+
 
 }
 

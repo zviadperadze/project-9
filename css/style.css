@@ -1,6 +1,12 @@
 /* header */
 header{
     height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: gray;
+    
 }
 
 .container{
@@ -16,11 +22,11 @@ header{
     align-items: center;
 }
 
-nav{
+header nav{
     width: 500px;
 }
 
-ul{
+header ul{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -58,6 +64,7 @@ li a{
     justify-content: center;
     align-items: center;
     margin-bottom: 80px;
+    margin-top: 80px;
 
 }
 
@@ -91,6 +98,10 @@ li a{
 }
 
 /* section 2 */
+
+.s-2{
+    margin-bottom: 80px;
+}
 
 .wrap-wrapper{
     display: flex;
@@ -176,4 +187,52 @@ li a{
     font-style: normal;
     text-align: left;
     color: #8d8d8d;
+}
+
+/* footer */
+footer{
+    height: 150px;
+    background-color: gray;
+}
+
+.myfooter{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:top;
+
+}
+
+.logo{
+    margin-top: 10px;
+}
+
+.myfooter a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15.742380142211914px;
+    font-weight: normal;
+    line-height: 36.99894714355469px;
+    font-style: normal;
+    text-align: center;
+    color: #303134;
+}
+
+.icons{
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fa-square-instagram{
+	font-size: 50px;
+}
+
+.fa-facebook{
+	font-size: 50px;
+	
+}
+
+.fa-facebook-messenger{
+	font-size: 50px;
 }
